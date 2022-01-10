@@ -1,0 +1,25 @@
+main {
+  display: grid;
+  place-content: center;
+  grid-auto-flow: column;
+  column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #1A374D;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin: 1px;
+}
+.button:hover {
+  opacity: 0.8;
+}
+div {
+  margin: auto;
+  width: 70%;
+}
